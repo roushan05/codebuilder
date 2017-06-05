@@ -1,0 +1,656 @@
+2017-06-05 05:03:42,803 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 19, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 05:04:45,579 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 19, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 05:05:47,977 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 19, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 05:14:11,131 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 19, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 05:15:14,822 Recieved a Payload
+2017-06-05 05:15:14,823 Pull request payload
+2017-06-05 05:15:14,823 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 35, in home
+    os.chdir(request.session['path'])
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 57, in __getitem__
+    return self._session[key]
+KeyError: u'path'
+2017-06-05 05:16:17,619 Recieved a Payload
+2017-06-05 05:16:17,620 Pull request payload
+2017-06-05 05:16:17,620 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 35, in home
+    os.chdir(request.session['path'])
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 57, in __getitem__
+    return self._session[key]
+KeyError: u'path'
+2017-06-05 05:16:55,343 Recieved a Payload
+2017-06-05 05:16:55,343 Pull request payload
+2017-06-05 05:16:55,344 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 35, in home
+    os.chdir(request.session['path'])
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 57, in __getitem__
+    return self._session[key]
+KeyError: u'path'
+2017-06-05 05:17:57,639 Recieved a Payload
+2017-06-05 05:17:57,640 Pull request payload
+2017-06-05 05:17:57,640 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 35, in home
+    os.chdir(request.session['path'])
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 57, in __getitem__
+    return self._session[key]
+KeyError: u'path'
+2017-06-05 05:18:59,693 Recieved a Payload
+2017-06-05 05:18:59,695 Pull request payload
+2017-06-05 05:18:59,695 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 35, in home
+    os.chdir(request.session['path'])
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/contrib/sessions/backends/base.py", line 57, in __getitem__
+    return self._session[key]
+KeyError: u'path'
+2017-06-05 05:49:26,171 Recieved a Payload
+2017-06-05 05:49:26,171 Pull request payload
+2017-06-05 05:49:26,173 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 38, in home
+    data = models.Data.objects.get(pk =1)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 379, in get
+    self.model._meta.object_name
+DoesNotExist: Data matching query does not exist.
+2017-06-05 05:50:28,655 Recieved a Payload
+2017-06-05 05:50:28,656 Pull request payload
+2017-06-05 05:50:28,657 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 38, in home
+    data = models.Data.objects.get(pk =1)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 379, in get
+    self.model._meta.object_name
+DoesNotExist: Data matching query does not exist.
+2017-06-05 05:51:30,615 Recieved a Payload
+2017-06-05 05:51:30,616 Pull request payload
+2017-06-05 05:51:30,617 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 38, in home
+    data = models.Data.objects.get(pk =1)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 379, in get
+    self.model._meta.object_name
+DoesNotExist: Data matching query does not exist.
+2017-06-05 05:55:32,382 Recieved a Payload
+2017-06-05 05:55:32,382 Pull request payload
+2017-06-05 05:55:36,586 Fetched the repo
+2017-06-05 05:55:36,599 failed to connect
+2017-06-05 05:55:36,600 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 58, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 05:56:37,978 Recieved a Payload
+2017-06-05 05:56:37,979 Pull request payload
+2017-06-05 05:56:39,905 Fetched the repo
+2017-06-05 05:56:39,915 failed to connect
+2017-06-05 05:56:39,915 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 58, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 05:57:41,665 Recieved a Payload
+2017-06-05 05:57:41,665 Pull request payload
+2017-06-05 05:57:43,905 Fetched the repo
+2017-06-05 05:57:43,917 failed to connect
+2017-06-05 05:57:43,917 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 58, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:11:35,669 Recieved a Payload
+2017-06-05 06:11:35,670 Pull request payload
+2017-06-05 06:11:37,500 Fetched the repo
+2017-06-05 06:11:37,513 failed to connect
+2017-06-05 06:11:37,513 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 62, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:12:38,934 Recieved a Payload
+2017-06-05 06:12:38,935 Pull request payload
+2017-06-05 06:12:41,326 Fetched the repo
+2017-06-05 06:12:41,336 failed to connect
+2017-06-05 06:12:41,336 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 62, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:13:43,158 Recieved a Payload
+2017-06-05 06:13:43,159 Pull request payload
+2017-06-05 06:13:43,162 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 38, in home
+    data = models.Data.objects.get(pk =1)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 373, in get
+    num = len(clone)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such column: builder_data.passwd
+2017-06-05 06:16:27,179 Recieved a Payload
+2017-06-05 06:16:27,179 Pull request payload
+2017-06-05 06:16:29,101 Fetched the repo
+2017-06-05 06:16:29,112 failed to connect
+2017-06-05 06:16:29,112 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 62, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:17:30,662 Recieved a Payload
+2017-06-05 06:17:30,662 Pull request payload
+2017-06-05 06:17:32,530 Fetched the repo
+2017-06-05 06:17:32,541 failed to connect
+2017-06-05 06:17:32,541 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 62, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:18:34,223 Recieved a Payload
+2017-06-05 06:18:34,224 Pull request payload
+2017-06-05 06:18:36,471 Fetched the repo
+2017-06-05 06:18:36,480 failed to connect
+2017-06-05 06:18:36,480 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 62, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:21:13,348 Recieved a Payload
+2017-06-05 06:21:13,349 Pull request payload
+2017-06-05 06:21:15,580 Fetched the repo
+2017-06-05 06:21:15,595 failed to connect
+2017-06-05 06:21:15,595 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 64, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:26:03,185 Recieved a Payload
+2017-06-05 06:26:03,185 Pull request payload
+2017-06-05 06:26:05,101 Fetched the repo
+2017-06-05 06:26:05,116 failed to connect
+2017-06-05 06:26:05,116 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 64, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:27:06,493 Recieved a Payload
+2017-06-05 06:27:06,494 Pull request payload
+2017-06-05 06:27:08,132 Fetched the repo
+2017-06-05 06:27:08,143 failed to connect
+2017-06-05 06:27:08,143 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 64, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:28:09,540 Recieved a Payload
+2017-06-05 06:28:09,541 Pull request payload
+2017-06-05 06:28:12,148 Fetched the repo
+2017-06-05 06:28:12,157 failed to connect
+2017-06-05 06:28:12,158 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 64, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:33:04,040 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 20, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 06:34:06,383 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 20, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 06:35:09,093 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 20, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 06:38:36,141 Recieved a Payload
+2017-06-05 06:38:36,141 Pull request payload
+2017-06-05 06:38:40,078 Fetched the repo
+2017-06-05 06:38:40,099 failed to connect
+2017-06-05 06:38:40,100 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 65, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:39:41,753 Recieved a Payload
+2017-06-05 06:39:41,754 Pull request payload
+2017-06-05 06:39:43,999 Fetched the repo
+2017-06-05 06:39:44,008 failed to connect
+2017-06-05 06:39:44,008 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 65, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:40:46,072 Recieved a Payload
+2017-06-05 06:40:46,072 Pull request payload
+2017-06-05 06:40:48,051 Fetched the repo
+2017-06-05 06:40:48,062 failed to connect
+2017-06-05 06:40:48,063 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 65, in home
+    logging.info(r.status_code)
+UnboundLocalError: local variable 'r' referenced before assignment
+2017-06-05 06:49:14,514 Recieved a Payload
+2017-06-05 06:49:14,515 Pull request payload
+2017-06-05 06:49:16,758 Fetched the repo
+2017-06-05 06:49:16,771 failed to connect
+2017-06-05 06:54:26,640 Recieved a Payload
+2017-06-05 06:54:26,640 Pull request payload
+2017-06-05 06:54:28,760 Fetched the repo
+2017-06-05 06:54:28,774 failed to connect
+2017-06-05 07:25:38,609 Recieved a Payload
+2017-06-05 07:25:38,610 Pull request payload
+2017-06-05 07:25:40,737 Fetched the repo
+2017-06-05 07:25:40,750 failed to connect
+2017-06-05 07:27:48,019 Recieved a Payload
+2017-06-05 07:27:48,020 Pull request payload
+2017-06-05 07:27:50,468 Fetched the repo
+2017-06-05 07:27:50,481 failed to connect
+2017-06-05 07:39:42,977 Recieved a Payload
+2017-06-05 07:39:42,978 Pull request payload
+2017-06-05 07:39:45,804 Fetched the repo
+2017-06-05 07:39:45,819 failed to connect
+2017-06-05 07:42:21,696 Recieved a Payload
+2017-06-05 07:42:21,696 Pull request payload
+2017-06-05 07:42:23,951 Fetched the repo
+2017-06-05 07:42:23,964 failed to connect
+2017-06-05 08:33:15,487 Recieved a Payload
+2017-06-05 08:33:15,488 Pull request payload
+2017-06-05 08:33:17,876 Fetched the repo
+2017-06-05 08:33:17,887 failed to connect
+2017-06-05 08:36:36,170 Recieved a Payload
+2017-06-05 08:36:36,171 Pull request payload
+2017-06-05 08:36:38,648 Fetched the repo
+2017-06-05 08:36:38,660 failed to connect
+2017-06-05 08:50:30,406 Recieved a Payload
+2017-06-05 08:50:30,407 Pull request payload
+2017-06-05 08:50:32,780 Fetched the repo
+2017-06-05 08:50:32,790 failed to connect
+2017-06-05 09:02:39,929 Recieved a Payload
+2017-06-05 09:02:39,929 Pull request payload
+2017-06-05 09:02:42,586 Fetched the repo
+2017-06-05 09:02:42,598 failed to connect
+2017-06-05 09:04:30,204 Recieved a Payload
+2017-06-05 09:04:44,694 Pull request payload
+2017-06-05 09:04:46,901 Fetched the repo
+2017-06-05 09:04:50,170 failed to connect
+2017-06-05 09:05:40,243 Recieved a Payload
+2017-06-05 09:05:40,243 Pull request payload
+2017-06-05 09:05:42,193 Fetched the repo
+2017-06-05 09:05:43,759 failed to connect
+2017-06-05 09:09:24,809 Recieved a Payload
+2017-06-05 09:09:24,810 Pull request payload
+2017-06-05 09:09:26,862 Fetched the repo
+2017-06-05 09:09:28,085 400
+2017-06-05 09:09:28,085 {"type": "error", "error": {"fields": {"newstatus": ["Fulfilling a pull request requires both write access on the origin and read access on the fork."]}, "message": "Bad request"}}
+2017-06-05 09:13:47,278 Recieved a Payload
+2017-06-05 09:13:47,279 Pull request payload
+2017-06-05 09:13:49,395 Fetched the repo
+2017-06-05 09:13:50,840 400
+2017-06-05 09:13:50,841 {"type": "error", "error": {"fields": {"newstatus": ["Fulfilling a pull request requires both write access on the origin and read access on the fork."]}, "message": "Bad request"}}
+2017-06-05 09:18:15,550 Recieved a Payload
+2017-06-05 09:18:15,551 Pull request payload
+2017-06-05 09:18:17,700 Fetched the repo
+2017-06-05 09:18:20,476 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 25, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 09:19:23,946 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 25, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 09:19:25,381 Recieved a Payload
+2017-06-05 09:19:25,381 Pull request payload
+2017-06-05 09:19:27,507 Fetched the repo
+2017-06-05 09:19:29,283 400
+2017-06-05 09:19:29,283 {"type": "error", "error": {"fields": {"newstatus": ["This pull request is already closed."]}, "message": "Bad request"}}
+2017-06-05 09:20:26,262 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/roshan/djangoprojects/codebuilder/builder/views.py", line 25, in home
+    if not (os.path.exists(request.POST['path'])):
+  File "/home/roshan/djangoprojects/newenv/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "u'path'"
+2017-06-05 09:28:05,368 Recieved a Payload
+2017-06-05 09:28:05,369 Pull request payload
+2017-06-05 09:28:09,714 Fetched the repo
+2017-06-05 09:28:09,742 Syntax error in file
+2017-06-05 09:28:11,372 200
+2017-06-05 09:28:11,372 {"merge_commit": null, "description": "", "links": {"decline": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/decline"}, "commits": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/commits"}, "self": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34"}, "comments": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/comments"}, "merge": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/merge"}, "html": {"href": "https://bitbucket.org/roushankr05/assignments/pull-requests/34"}, "activity": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/activity"}, "diff": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/diff"}, "approve": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/approve"}, "statuses": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/pullrequests/34/statuses"}}, "title": "clss.py edited online with Bitbucket", "close_source_branch": false, "reviewers": [], "destination": {"commit": {"hash": "0182a1ad7e16", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments/commit/0182a1ad7e16"}}}, "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/roushankr05/assignments"}, "html": {"href": "https://bitbucket.org/roushankr05/assignments"}, "avatar": {"href": "https://bitbucket.org/roushankr05/assignments/avatar/32/"}}, "type": "repository", "name": "assignments", "full_name": "roushankr05/assignments", "uuid": "{667a75d6-7ad9-407c-8cc0-e06468d0abe0}"}, "branch": {"name": "master"}}, "state": "DECLINED", "closed_by": {"username": "roushankr05", "display_name": "Roushan Kumar", "type": "user", "uuid": "{17d39e5b-2fc0-457c-8d92-c6b26084d2f1}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/roushankr05"}, "html": {"href": "https://bitbucket.org/roushankr05/"}, "avatar": {"href": "https://bitbucket.org/account/roushankr05/avatar/32/"}}}, "source": {"commit": {"hash": "e58a15687c2f", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/roshankr/assignments/commit/e58a15687c2f"}}}, "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/roshankr/assignments"}, "html": {"href": "https://bitbucket.org/roshankr/assignments"}, "avatar": {"href": "https://bitbucket.org/roshankr/assignments/avatar/32/"}}, "type": "repository", "name": "assignments", "full_name": "roshankr/assignments", "uuid": "{dfd24661-d6db-4ccf-bcf1-37fba4992afa}"}, "branch": {"name": "master"}}, "comment_count": 0, "author": {"username": "roshankr", "display_name": "roshaan", "type": "user", "uuid": "{5db5dca8-0c64-4ce4-bb49-43cb7f7d5352}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/roshankr"}, "html": {"href": "https://bitbucket.org/roshankr/"}, "avatar": {"href": "https://bitbucket.org/account/roshankr/avatar/32/"}}}, "created_on": "2017-06-05T09:28:04.435897+00:00", "participants": [], "reason": "", "updated_on": "2017-06-05T09:28:11.060339+00:00", "type": "pullrequest", "id": 34, "task_count": 0}
