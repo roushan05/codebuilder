@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+WELCOME
+<br />
+{% if  req %}
+{% if error %}
+{{error}}
+{% endif %}
+<br />
+<form method = 'POST' action = '{% url 'home' %}'>
+  {% csrf_token %}
+Enter your path to git repo:
+<br />
+<input type = 'text' name = 'path' />
+<br />
+Enter your github username:
+<br />
+<input type = 'text' name = 'userid' />
+<br />
+Enter your github password:
+<br />
+<input type = 'password' name = 'passwd' />
+<br />
+<br />
+
+<input class = "btn btn-primary" type = 'submit' value = 'Post' />
+
+</form>
+{% endif %}
+</body>
+</html>
