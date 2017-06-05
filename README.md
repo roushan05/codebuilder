@@ -16,7 +16,8 @@ Steps :
 ->> Install Ngrok.
 ->> Create a webhook from your bitbucket repository.
 ->> Enter the url supplied from Ngrok.
-->> Start the django server. 
+->> Start the django server by entering the command below. 
+python manage.py runserver
 ->> Visit localhost:8000 or the url supplied by Ngrok.
 ->> Please enter your bitbucket account username and password and the path to your local repository on your computer. 
 ->> Create a PR for the your repository. 
