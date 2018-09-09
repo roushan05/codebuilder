@@ -1,6 +1,6 @@
 A Django app to automatically process your pull requests.
-Uses Ngrok to interact with your local port
-If any syntax issues are found in the changed files in PR the app automatically declines the PR
+Uses Ngrok to interact with your local port.
+If any syntax issues are found in the PR, the app automatically declines the PR.
 Otherwise it merges the PR and creates a tag on it
 The whole series of events are logged in the Events.txt file.
 
